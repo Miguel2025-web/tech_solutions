@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Frijole&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+body{
+    margin: 0%;
+      background-image: linear-gradient(#1a212a);
+    
+}
+
+h1{
+    font-family: "Cinzel Decorative", serif;
+    color: #f5d081;
+}
+
+.top{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    text-align: center;
+     display: inline;
+     height: 100%;
+     width: 350px;
+     float: left;
+}
+
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 10px;
+}
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 16px;
+    font-family: "Cinzel Decorative", serif;
+    color: #f5d081;
+    margin-top: 20px;
+}
+
+.menu a:hover{
+    border-bottom: 1px groove #f5d081;
+}
+
+#botao-login{
+    background: #f5d081 ;
+    padding: 7px 25px;
+    text-align: center;
+    border-radius: 30px;
+    color: black ;
+    margin-left: 70px;
+}
+
+/*_______________________________________________*/
+
+
+header{
+    display: inline-block;
+     height: 500px;
+     width: 100%;
+}
+
+
+.headline{
+    display: inline-block;
+    width: 850px;
+    height: 100%;
+    text-align: center;
+}
+
+.headline p{
+    font-size: 25px;
+    color: #f5d081;
+}
+
+
+.img-headline{
+    display: inline;
+    width: 600px;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+
+
+.img-headline img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+
+/*______________________________________________*/
+
+section{
+    display: inline-flex;
+    border: red groove;
+    height: 500px;
+    width: 100%;
+}
+
+section h2{
+    width: 100%;
+    height: 100px;
+    border: red groove;
+    text-align: center;
+    font-size: 35px;
+    color: #f5d081;
+    font-family: "Cinzel Decorative", serif;
+}
